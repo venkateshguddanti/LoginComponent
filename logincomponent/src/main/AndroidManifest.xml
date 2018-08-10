@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.hm.com.logincomponent">
+
+    <application>
+        <activity android:name=".LoginScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".RegisterScreen"></activity>
+    </application>
+
+</manifest>
