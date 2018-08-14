@@ -1,12 +1,12 @@
-package org.hm.com.logincomponent
+package org.hm.com.hmecomm.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class RegisterScreen : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_screen)
+        setContentView(R.layout.layout)
     }
 }
