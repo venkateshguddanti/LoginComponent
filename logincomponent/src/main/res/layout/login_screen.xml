@@ -5,7 +5,7 @@
     <data>
         <variable
             name="loginHolder"
-            type="org.hm.com.logincomponent.LoginHolder"></variable>
+            type="org.hm.com.logincomponent.holder.LoginHolder"></variable>
     </data>
   <ScrollView
     android:layout_width="match_parent"
@@ -22,33 +22,33 @@
         <android.support.design.widget.TextInputLayout
             android:id="@+id/inputLayoutUsername"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
             >
 
             <EditText
                 android:id="@+id/edtUsername"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:imeOptions="actionNext"
-                android:maxLines="1"
+                style="@style/EditTextDefaultNext"
                 android:inputType="text"
                 android:hint="@string/hint_username"
-                app:textChangedListener="@{loginHolder.onTextChanged}"
+                bind:textChangedListener="@{loginHolder.onTextChanged(edtUsername)}"
                 />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/inputLayoutPassword"
             android:layout_width="match_parent"
-            android:layout_height="50dp">
+            app:errorEnabled="true"
+            android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:imeOptions="actionDone"
-                app:textChangedListener="@{loginHolder.onTextChanged}"
-                android:maxLines="1"
+                bind:textChangedListener="@{loginHolder.onTextChanged(edtPassword)}"
+                style="@style/EditTextDefaultDone"
                 android:hint="@string/hint_password"
                 android:inputType="textPassword"/>
            </android.support.design.widget.TextInputLayout>

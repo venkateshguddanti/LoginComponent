@@ -11,7 +11,7 @@ import android.widget.EditText
         view.setOnClickListener(listener)
     }
 @BindingAdapter("textChangedListener")
-    fun bindTextWatcher(editText: EditText,textWatcher: TextWatcher)
+    fun bindTextChangedListener(editText: EditText,textWatcher: TextWatcher)
 {
     editText.addTextChangedListener(textWatcher)
 }

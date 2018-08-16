@@ -3,7 +3,11 @@
     <string name="txt_FPW">Forget Password?</string>
     <string name="txt_register">Not Register?</string>
     <string name="txt_login">Login</string>
+    <string name="txt_Register">Register</string>
+    <string name="txt_FPW_generate">Send OTP</string>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
+    <string name="hint_FPW">Enter Mobile Number</string>
+    <string name="txt_field_error">Field cannot be empty</string>
 
 </resources>

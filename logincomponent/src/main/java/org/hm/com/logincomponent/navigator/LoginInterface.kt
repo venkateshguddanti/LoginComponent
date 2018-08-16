@@ -1,4 +1,4 @@
-package org.hm.com.logincomponent
+package org.hm.com.logincomponent.navigator
 
 import android.view.View
 import java.net.PasswordAuthentication

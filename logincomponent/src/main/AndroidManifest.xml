@@ -3,9 +3,8 @@
     package="org.hm.com.logincomponent">
 
     <application>
-        <activity android:name=".LoginScreen"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".RegisterScreen"></activity>
+
+        <activity android:name=".RegisterFpwScreen"></activity>
     </application>
 
 </manifest>

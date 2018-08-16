@@ -1,23 +1,15 @@
 package org.hm.com.hmecomm.ui.activity
 
-import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import io.reactivex.Observable
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.app_bar_home.*
 import org.hm.com.hmecomm.R
 import org.hm.com.hmecomm.api.ApiService
-import org.hm.com.hmecomm.app.Application
-import org.hm.com.hmecomm.models.Post
-import org.hm.com.hmecomm.ui.activity.BaseActivity
 import javax.inject.Inject
 
 class HomeActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -32,7 +24,7 @@ class HomeActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener({view->
-            //startActivity(Intent(this, LoginScreen::class.java))
+
         })
 
 
@@ -96,4 +88,5 @@ class HomeActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
     }
+
 }
