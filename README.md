@@ -2,7 +2,7 @@
 
 Before going to this you should bit familier with [databinding](https://developer.android.com/topic/libraries/data-binding/) concept in android 
 
-This component consit of implementation of Sample login screen and forgetpassword screen with all handlings using kotlin and data binding concept
+This component consist of implementation of Sample login screen and forget password screen with all handlings using kotlin and data binding concept
 
 Make following changes to use this component in your kotlin project
 
