@@ -1,6 +1,6 @@
 # LoginComponent
 
-Befor going to this you should bit familier with [databinding](https://developer.android.com/topic/libraries/data-binding/) concept in android 
+Before going to this you should bit familier with [databinding](https://developer.android.com/topic/libraries/data-binding/) concept in android 
 
 This component consit of implementation of Sample login screen and forgetpassword screen with all handlings using kotlin and data binding concept
 
