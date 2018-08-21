@@ -60,8 +60,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = DataBindingUtil.setContentView<LoginScreenBinding>(this, R.layout.login_screen)
         
-         lateinit var inputLayoutUsername : TextInputLayout   // Since kotlin extension not working from module we should define UI component to update
-         lateinit var inputLayoutPassword : TextInputLayout
+          inputLayoutUsername = findViewById(R.id.inputLayoutUsername)
+           inputLayoutPassword= findViewById(R.id.inputLayoutPassword)   // Since kotlin extension not working from module we should define UI component to update
+        
     
         val holer = LoginHolder(this)
         binding.loginHolder = holer
